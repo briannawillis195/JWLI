@@ -1,0 +1,556 @@
+* {
+    box-sizing: border-box;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    clear: both; 
+}
+
+nav ul li {
+    width: 10%;
+    float: left;
+    color: black;
+    list-style-type: none;
+    margin-left: 2%;
+    font-size: 1.5rem;
+    padding-top: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header button {
+    background: rgb(48, 48, 48);
+    color: white;
+    border: none;
+    width: 70%;
+    height: 30px;
+
+}
+
+main {
+    width:100%;
+    height: 400px;
+    background: rgba(238, 241, 243, 1);
+}
+
+.main-one {
+    width: 60%;
+    height:400px;
+    float: left;
+}
+
+.main-one img{
+    width: 100%;
+    height: 150px;
+}
+
+.main-one h1 {
+    font-weight: 100;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.main-one p + p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.main-one p {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.email {
+    text-align: center;
+
+}
+
+.email input {
+    height: 32px;
+    font-size: 1.6rem;
+    width: 34%;
+    margin-right: 16px;
+}
+
+.email button {
+    height: 32px;
+    width: 16%;
+    font-size: 17px;
+    background: rgba(186, 196, 206, 1);
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
+
+.main-two {
+    width: 40%;
+    height:400px;
+    float: left;
+}
+
+.JWLI-empowers {
+    width: 100%;
+    height: 300px;
+}
+
+.one, .four {
+    width: 100%;
+    height: 100px;
+    clear: both;
+}
+
+.one h1{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.one h1 {
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.two span, .three span {
+    font-weight: 700;
+    font-size: 1.4rem;
+    border-top: 1px solid pink;
+
+}
+
+.two p{
+    margin-left: 250px;
+    margin-right: 100px;
+}
+
+
+.two, .three {
+    width: 50%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.three p{
+    margin-left: 100px;
+    margin-right: 250px;
+}
+
+.four p {
+    font-style: italic;
+    text-align: center;
+    color: gray;
+    font-size: 1.3rem;
+}
+
+.history {
+    width: 100%;
+    height: 500px;
+    background: rgba(238, 241, 243, 1);
+}
+
+.history-content {
+    width: 70%;
+    height: 500px;
+    float: left;
+}
+
+.history h1 {
+    font-size: 3rem;
+    margin-left: 100px;
+}
+
+.history p {
+    text-align:left;
+    font-size: 1.8rem;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.history-images {
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+
+.history-images1 {
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+
+.history-images2 {
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+
+.history-images1 img, .history-images2 img {
+    width: 100%;
+    height: 200px;
+}
+
+figcaption {
+    color: rgb(83, 83, 83);
+    font-style: italic;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.who-we-are {
+    width: 100%;
+    height: 70px;
+}
+
+.who-we-are h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.atsuko {
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(193, 193, 193);
+}
+
+.atsuko-image {
+    width: 30%;
+    height: 250px;
+    float: left;
+}
+
+.atsuko-image img {
+    width: 65%;
+    margin-left: 100px;
+}
+
+.atsuko-content {
+    width: 70%;
+    height: 250px;
+    float: left;
+}
+
+.atsuko-content h1 {
+    font-size: 2rem;
+}
+
+.atsuko-content p {
+    font-size: 1.5rem;
+    margin-right: 300px;
+}
+
+.foundation {
+    width: 100%;
+    height: 200px;
+}
+
+.family-foundation {
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+.family-foundation-title {
+    width: 50%;
+    height: 55px;
+    font-size: 1.8rem;
+    color: lightgray;
+    margin-left:70px;
+}
+
+
+
+.simmons {
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+.simmons-content p{
+    font-size: 1.5rem;
+    margin-left: 80px;
+    margin-right: 80px;
+} 
+
+.family-foundation-content p {
+    font-size: 1.5rem;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.simmons-logo img {
+    width: 50%;
+    margin-left:70px;
+}
+
+.newsletter {
+    height: 60px;
+    width: 100%;
+    float: left;
+    background: rgba(173, 190, 201, 1);
+    text-align: right;
+}
+
+.newsletter p {
+    display: inline-block;
+    font-size: 1.7rem;
+    color: white;
+    margin-right: 31%
+}
+
+.newsletter input {
+    height: 32px;
+    font-size: 1.6rem;
+    width: 20%;
+    margin-right: 16px;
+}
+
+.newsletter button {
+    height: 32px;
+    width: 9%;
+    font-size: 1.6rem;
+    margin-right: 75px;
+    background: rgba(130, 145, 152, 1);
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
+
+
+
+footer {
+    height: 170px;
+    width: 100%;
+    clear: both;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    color: white;
+    background: rgba(130, 145, 152, 1);  
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-top-left {
+    height: 60px;
+    width: 50%;
+    float: left;
+}
+
+.footer-top-left p {
+    float: left;
+    margin-left: 40px;
+}
+
+.footer-top-right {
+    height: 60px;
+    width: 50%;
+    float: left;
+}
+
+.footer-top-right ul {
+    float: right;
+    list-style: none;
+}
+
+.footer-top-right ul li {
+    float: left;
+    padding-right: 35px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.footer-bottom {
+    height: 140px;
+    width: 100%;
+    float: left;
+}
+
+.footer-bottom-left {
+    height: 140px;
+    width: 50%;
+    float: left;
+}
+
+.home {
+    width: 25%;
+
+}
+
+.home ul {
+    list-style: none;
+    float: left;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.JWLIA {
+    width: 37.5%;
+    float: left;
+}
+
+.JWLIA ul {
+    list-style: none;
+    float: left;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.footer-bottom-right {
+    height: 140px;
+    width: 50%;
+    float: left;
+}
+
+.footer-bottom-right ul {
+    float: right;
+    list-style: none;
+}
+
+.footer-bottom-right li {
+    padding-right: 22px;
+    font-weight: bold;
+    float: left;
+}
+
+
+/*ADDITIONAL STYLES*/
+@media screen and (max-width:920px){
+    .history-images {
+        display: none;
+    }
+
+    .history-content {
+        width: 100%;
+        display: block;
+    }
+
+    .who-we-are {
+        display: none;
+    }
+
+    .foundation {
+        display: none; 
+    }
+    }
+
+    @media screen and (max-width:650px) and (min-width: 519px){
+        .hide {
+            display: none;
+        }
+
+        .main-two {
+            display: none;
+        }
+
+        .main-one {
+            display: block;
+            width: 100%; 
+        }
+
+        .history {
+            display: none;
+        }
+
+        .newsletter {
+            display: none;
+        }
+
+        .two, .three, .four {
+            display: none;
+        }
+
+        footer {
+            display: none;
+        }
+
+        .atsuko-image{
+            display: none;
+        }
+
+        .atsuko-content {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    @media screen and (max-width:519px) and (min-width:200px) {
+        .hide-content {
+            display: none;
+        }
+
+        .main-one h1 {
+            display: none;
+        }
+
+        .main-two {
+            display: none;
+        }
+
+        .empower {
+            display: none;
+        }
+        .history {
+            display: none;
+        }
+
+        .newsletter {
+            display: none;
+        }
+
+        .two, .three, .four {
+            display: none;
+        }
+
+        footer {
+            display: none;
+        }
+
+        .atsuko-image{
+            display: none;
+        }
+
+        .atsuko-content {
+            width: 100%;
+            display: block;
+        }
+
+        .hide {
+            display: none;
+        }
+    }
